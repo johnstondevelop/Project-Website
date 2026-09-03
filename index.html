@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Projects</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="shell">
+	<div class="gutter" aria-hidden="true">
+		<div id="gutterNums"></div>
+		<div class="gutter-mark">/// portfolio.py</div>
+	</div>
+	
+	<main>
+		<div class="topbar">
+			<div class="container">
+				<span class="brand"><strong>Patrick Johnston</strong> - Code Developer</span>
+				<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+					<span class="dot"></span>
+					<span id="themeLabel">dark mode</span>
+				</button>
+			</div>
+		</div>
+		
+			
+		<div class="view-list" id="listView">
+			<div class="container">
+			
+				
+				<section class="hero">
+					<div class="hero-eyebrow">-Patrick Johnston</div>
+					<h1><span class="type-line" id="typeLine"></span><h1>
+					<p class="lede"> I enjoy fun side projects, as well as building helpful tools and systems that can make life and troubles easier and more fun! Below is a log of all ive been working on and created from simple side creations to full applications. Click within any entry to see how it was built.</p>
+					<div class="hero-links">
+						<a href="https://github.com/" target="_blank" rel="https://github.com/johnstondevelop/Project-Website.git">Github</a>
+						<a href="mailto:johnstondevelop@gmail.com">Email</a>
+						<a href="#" id"resumeLink">Resume</a>
+					</div>
+				</section>
+				
+				<div class="section-head">
+					<span class="idx">01</span>
+					<h2>Projects</h2>
+				</div>
+				
+				<div class="projects" id="projectList"></div>
+				
+			</div>
+		</div>
+		
+		<div class="detail" id="detailView">
+			<div class="container" id="detailContent"></div>
+		</div>
+		
+		<footer>
+			<div class="container" style="dispaly:flex; justify-content:space-between; max-width:760px;">
+				<span>This website was built with Python mixed with html, CSS, and js</span>
+				<span id="year"></span>
+			</div>
+		</footer>
+	</main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+	
